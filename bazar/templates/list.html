@@ -29,7 +29,7 @@
                 <p class="card-text">Zařazení: <mark>{{ zbozi.druh.oblast }}</mark> - <b>{{ zbozi.druh.oznaceni_druhu }}</b></p>
                 <p class="card-text">Cena: <span class="cena">{{ zbozi.cena }} Kč</span></p>
                 <p class="card-text">Rok: <span class="rok">{{ zbozi.rok }}</span></p>
-                <p class="card-text">Stav: {% with ''|center:zbozi.stav as range %}{% for _ in range %}<i class="fa fa-star"></i>{% endfor %}{% endwith % km</p>
+                <p class="card-text">Stav: {% with ''|center:zbozi.stav as range %}{% for _ in range %}<i class="fa fa-star"></i>{% endfor %}{% endwith %} km</p>
                 <a href="{% url 'detail' zbozi.pk %}" class="btn btn-primary">Podrobnosti</a>
             </div>
         </div>

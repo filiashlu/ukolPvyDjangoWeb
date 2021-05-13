@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'bazarweb.urls'
+ROOT_URLCONF = 'ghettocar.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bazarweb.wsgi.application'
+WSGI_APPLICATION = 'ghettocar.wsgi.application'
 
 
 # Database
